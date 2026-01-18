@@ -19,7 +19,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=AnkitG0204&show_icons=true&hide_border=true&theme=tokyonight
+          options: username=AnkitG0204&show_icons=false&hide_border=true&theme=tokyonight
           path: assets/stats/stats.svg
           token: ${{ secrets.MY_TOKEN }}
 
