@@ -21,7 +21,7 @@ jobs:
           card: stats
           options: username=AnkitG0204&show_icons=true&hide_border=true&theme=tokyonight
           path: assets/stats/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_TOKEN }}
 
       # 2) Top languages card
       - name: Generate Top languages card
@@ -30,7 +30,7 @@ jobs:
           card: top-langs
           options: username=AnkitG0204&layout=compact&hide_border=true&theme=tokyonight
           path: assets/stats/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_TOKEN }}
 
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
